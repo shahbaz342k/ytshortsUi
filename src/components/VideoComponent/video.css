@@ -1,0 +1,103 @@
+.video{
+    position: relative;
+    width: 400px;
+    height: 90vh;
+    scroll-snap-align: start;
+    border-radius: 20px;
+}
+.video_player{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.shortVideoHeader{
+    position: absolute;
+    min-width: fit-content;
+    width: 100%;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.topIcon{
+    display: flex;
+}
+svg.MuiSvgIcon-root {
+    cursor: pointer;
+}
+.topIcon > .MuiSvgIcon-root{
+    font-size: 32px;
+    padding: 10px;
+}
+
+
+.shortVideoSideIcons{
+    position: absolute;
+    right: 10px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+}
+.shortVideoSideIcon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.shortVideoSideIcon p{
+    color: #fff;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.shortVideoSideIcon > .MuiSvgIcon-root{
+    font-size: 28px;
+    padding: 10px;
+}
+
+.shortsBottom{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 10px;
+
+}
+.shortsDescription {
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    max-width: 70%;
+}
+.shortsDescription  p {
+    color:#fff;
+}
+
+.shortsBottom .details{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.shortsBottom .details p{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:#fff;
+    font-weight: 500;
+}
+
+.shortsBottom .details button{
+    padding: 8px;
+    outline: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border:none;
+}
+.Subcribe{
+    background: red;
+    color: #fff;
+}
+.unSubcribe{
+    background-color: aliceblue;
+}
